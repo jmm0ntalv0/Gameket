@@ -1,0 +1,52 @@
+.card{
+	width: 25vw;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	left: 4%;
+	top: 20%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.h4, h1{
+	text-align: center;
+}
+
+#btn-entrar{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#img-fondo{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+}
+
+#img-rectangulo{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 32.5%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+#img-logo{
+	position: fixed;
+	max-width: 20vw;
+    top: 75%;
+    left: 80%;
+}
+
+#inicia-sesion-p{
+	position: absolute;
+    top: 21%;
+    left: 5%;
+    color: white;
+    font-size: 20px;
+}

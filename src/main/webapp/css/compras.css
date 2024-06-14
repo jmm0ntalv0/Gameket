@@ -1,0 +1,50 @@
+body {
+	background-color: rgb(64, 64, 64);
+}
+
+.table {
+	width: 50vw;
+}
+
+#main-menu{
+	left: unset;
+	right: 0;
+}
+
+.btn-with-image {
+    width: 30px;
+    height: 30px;
+}
+
+#img-logo-texto {
+	max-width: 6vw;
+}
+
+#historial-tbody {
+	color: rgb(181, 179, 179);
+}
+
+#historial-label {
+	color: rgb(181, 179, 179);
+}
+
+#img-usuario {
+	width: 50px;
+	height: 50px;
+}
+
+#info-username {
+	color: white;
+	font-weight: bold;
+	padding-left: 10px;
+	font-size: 30px;
+}
+
+#info-user {
+	padding: 30px;
+	padding-left: 25vw;
+}
+
+tr {
+	background-color: rgba(181, 179, 179, 0.1);
+}

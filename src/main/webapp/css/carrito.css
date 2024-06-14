@@ -1,0 +1,30 @@
+body {
+	background-color: rgb(64, 64, 64);
+}
+
+.table {
+	width: 40vw;
+}
+
+#btn-papelera {
+	height: 25px;
+	width: 25px;
+}
+
+#img-logo-texto {
+	max-width: 6vw;
+}
+
+#historial-tbody {
+	color: white;
+}
+
+#btn-lista-container {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+tr {
+	background-color: rgba(181, 179, 179, 0.1);
+}

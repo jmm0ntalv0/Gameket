@@ -1,0 +1,202 @@
+body{
+	background-color: rgb(80, 80, 80);
+}
+
+#main-menu{
+	left: unset;
+	right: 0;
+}
+
+#ordenar-genero{
+	cursor: pointer;
+}
+
+#juegos-grid {
+	padding-left: 17vw;
+	padding-right: 17vw;
+}
+
+.card{
+	border: 0px;
+	position: relative;
+	overflow: hidden;
+	max-width: 200vw;
+}
+
+
+.card-img-container {
+    height: 350px;
+    overflow: hidden;
+}
+
+.card-img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#genero{
+	color: blue;
+	text-align: center;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#precio{
+	text-align: right;
+	color: #008000;
+}
+
+.card-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.btn-with-image {
+    width: 30px;
+    height: 30px;
+}
+
+#nombre-empresa{
+	font-style: italic;
+	opacity: 0.3;
+	text-align: center;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#comprar-juego{
+	text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.carousel-container {
+	padding-top: 30px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+#texto-descuento {
+	text-decoration: line-through;
+}
+
+#img-descuento {
+	max-width: 80px;
+}
+
+.card-body {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	transition: top 0.3s ease-in-out;
+	background: rgb(255, 119, 249);
+	padding: 15px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-body {
+	top: 40%;
+}
+
+#img-fondo{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+}
+
+#img-logo-texto {
+	max-width: 6vw;
+}
+
+#rrss {
+	width: 50px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+#all-juegos-link-container {
+	padding-top: 5vw;
+	padding-left: 69vw;
+}
+
+#all-juegos-link {
+	font-size: 20px;
+	color: white;
+}
+
+#cat-label {
+	padding-left: 16.5vw;
+	text-align: left;
+	font-size: 25px;
+	color: white;
+}
+
+#cat-container {
+	padding: 10px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+#cat-imagen1,
+#cat-imagen2, 
+#cat-imagen3, 
+#cat-imagen4,
+#cat-imagen5, 
+#cat-imagen6 {
+	padding: 10px;
+}
+
+#juegos-label {
+	color: white;
+	padding: 20px;
+	padding-left: 18vw;
+}
+
+#premium-label-container {
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+.jumbotron {
+	background-color: rgb(115, 115, 115);
+	display: flex;
+	align-items: center;
+}
+
+#premium-text {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding-right: 20px;
+}
+
+#btn-lupa {
+	width: 15px;
+	height: 15px;
+}
+
+#buscar-juego-vacio {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	max-width: 30vw;
+}
+
+#no-encontrado-container {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}

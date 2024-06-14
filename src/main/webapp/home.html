@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="css/home.css" type="text/css">
+<script src="js/main.js"></script>
+
+<title>Inicio - gameKet</title>
+</head>
+<body>
+	<img id="img-fondo" src="img/fondo-home.png">
+	<nav class="navbar navbar-dark bg-dark sticky-top">
+		<a id="gameKetLink" class="navbar-brand" href="home.html"><img id="img-logo-texto" src="img/logo-texto.png"></a>
+		<form class="form-inline search-form">
+			<input id="busqueda-input" class="form-control mr-sm-2" type="text" placeholder="Search">
+			<a id="btn-busqueda" class="btn btn-secondary" type="submit"><img id="btn-lupa" src="img/btn-lupa.png"></a>
+		</form>
+		<div id="user-data-profile">
+			<div class="btn-group">
+				<a id="carrito-btn" href="carrito.html"><img src="img/btn-carrito.png" class="btn-with-image mr-3"></img></a>
+				<img src="img/btn-perfil.png" class="btn-with-image" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></img>
+				<div class="dropdown-menu" id="main-menu">
+					<h2 id="username-label" class="dropdown-header"></h2>
+					<a id="mis-pedidos-btn" class="dropdown-item" href="compras.html">Mis compras</a>
+					<a id="mi-perfil-btn" class="dropdown-item" href="profile.html">Configuración</a>
+					<div class="dropdown-divider"></div>
+					<a id="salir-btn" class="dropdown-item" href="index.html">Cerrar sesión </a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="carousel-container">
+		<div id="demo" class="carousel slide" data-ride="carousel" data-interval="9000">
+	
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+	
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a id="noticia1" href="noticia.html?noticia=1"><img src="img/noticia-gta6.png"></a>
+				</div>
+				<div class="carousel-item">
+					<a id="noticia2" href="noticia.html?noticia=2"><img src="img/noticia-bo6.png"></a>
+				</div>
+				<div class="carousel-item">
+					<a id="noticia3" href="noticia.html?noticia=3"><img src="img/noticia-juegos.png"></a>
+				</div>
+			</div>
+	
+			<a class="carousel-control-prev" href="#demo" data-slide="prev"> <span
+				class="carousel-control-prev-icon"></span>
+			</a> <a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+	
+		</div>
+	</div>
+	
+	<div id="all-juegos-link-container" >
+		<a id="all-juegos-link" class="btn btn-basic text-gray-900">Todos los juegos ></a>
+	</div>
+	
+	<main class="p-4 d-flex justify-content-center">
+		<div class="row" id="juegos-grid"></div>
+	</main>
+	
+	<p id="cat-label">Categorías</p>
+	
+	<div id="cat-container">
+		<span><a id="cat-imagen1"><img src="img/portadas-cat/cat-accion.png"></a></span>
+		<span><a id="cat-imagen2"><img src="img/portadas-cat/cat-fps.png"></a></span>
+		<span><a id="cat-imagen3"><img src="img/portadas-cat/cat-multijugador.png"></a></span><br><br>
+		<span><a id="cat-imagen4"><img src="img/portadas-cat/cat-simulacion.png"></a></span>
+		<span><a id="cat-imagen5"><img src="img/portadas-cat/cat-deportes.png"></a></span>
+		<span><a id="cat-imagen6"><img src="img/portadas-cat/cat-supervivencia.png"></a></span>
+	</div>
+	
+	<div id="premium-label-container" class="d-none">
+		<div class="jumbotron">
+			<span id="premium-text">Obtén un 50% de descuento en todos nuestros juegos</span>
+			<a id="btn-to-profile" class="btn btn-warning">Hazte premium</a>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-dark bg-dark justify-content-center">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Términos y condiciones</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Política de privacidad</a>
+			</li><br>
+			<li>
+				<img id="rrss" src="img/instagram.png"><img id="rrss" src="img/twitter.png"><img id="rrss" src="img/facebook.png">	
+			</li><br>
+			<li class="nav-item">
+				<span>Copyright © 2024 gameKet - All rights reserved</span>
+			</li>
+		</ul>
+	</nav>
+</body>
+</html>

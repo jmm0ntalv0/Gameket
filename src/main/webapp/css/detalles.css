@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+	background-color: rgb(80, 80, 80);
+}
+
+#titulo-detalles {
+	position: absolute;
+	left: 24.3%;
+	font-size: 20px;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+}
+
+#descripcion-detalles {
+	position: absolute;
+	width: 36.5vw;
+	left: 24.3%;
+	text-align: justify;
+	color: rgb(181, 179, 179);
+}
+
+#genero1-detalles,
+#genero2-detalles {
+    font-size: 9px;
+    border: 1px solid black;
+    padding: 2px;
+    position: relative;
+    background-color: rgb(186, 85, 211);
+}
+
+#empresa-detalles,
+#fecha-detalles {
+	color: rgb(181, 179, 179);
+}
+
+#generos {
+	position: absolute;
+    top: 82%;
+    left: 64%;
+    width: 20vw;
+}
+
+#datos {
+	position: absolute;
+    top: 73%;
+    left: 64%;
+    font-size: 12px;
+    width: 20vw;
+}
+
+#comprar-container {
+	position: absolute;
+    top: 88%;
+    left: 24%;
+    width: 37vw;
+    height: 180px;
+    background-color: rgb(186, 85, 211);
+}
+
+#precio-detalles {
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+#comentarios-container {
+	position: absolute;
+    top: 115%;
+    left: 24%;
+}
+
+#comment {
+	width: 37vw;
+}
+
+.comentario-username{
+	margin-left: 10px;
+	color: rgb(181, 179, 179);
+}
+
+.comentario-recomendacion {
+	margin-left: 10px;
+	font-style: italic;
+	color: rgb(181, 179, 179);
+}
+
+.comentario-fecha {
+	margin-left: 10px;
+	font-size: 10px;
+}
+
+.comentario-texto {
+	font-size: 20px;
+	margin-top: 10px;
+	color: rgb(181, 179, 179);
+}
+
+#titulo-comentarios {
+	font-size: 20px;
+	color: rgb(181, 179, 179);
+}
+
+.form-check-label {
+	color: rgb(181, 179, 179);
+}
+
+#btn-comentarios {
+	width: 30px;
+    height: 30px;
+    opacity: 0.5;
+}
+
+#btn-mostrar-comentarios {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#img-logo-texto {
+	max-width: 6vw;
+}
+
+.btn-with-image {
+    width: 30px;
+    height: 30px;
+}
+
+#main-menu{
+	left: unset;
+	right: 0;
+}
